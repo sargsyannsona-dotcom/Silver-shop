@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>LUNÉ — Moonlight Ring</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/media_sizes.css">
+</head>
+
+<body>
+    <header>
+        <div class="row header-row align-center justify-between mobile-menu">
+            <div class="col logo">
+                <div class="wrapper"><a class="logo" href="index.html"><span>LUNÉ</span><small>SILVER
+                            JEWELRY</small></a>
+                </div>
+            </div>
+            <div class="col w-50">
+                <div class="wrapper">
+                    <div>
+                        <label class="search flex align-center w-100">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="search" placeholder="Search products,categories...">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col menu">
+                <div class="wrapper flex align-center gap-7">
+                    <i class="fa-solid fa-bars menu-toggle none"></i>
+                    <nav>
+                        <ul class="flex gap-10">
+                            <li><a href="about.html" class="font-weight-200">About</a></li>
+                            <li><a href="products.html" class="font-weight-200">Products</a></li>
+                            <li><a href="categories.html" class="font-weight-200">Categories</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header-icons"><a href="wishlist.html" class="Wishlist"><i class="fa-regular fa-heart"></i></a>
+                        <a href="cart.html" class="Cart"><i class="fa-solid fa-bag-shopping"></i><span>5</span></a>
+                        <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="products-hero">
+            <div class="row">
+                <div class="col w-50">
+                    <div class="wrapper hero-content">
+                        <span class="subtitle">SILVER JEWELRY</span>
+                        <h1>
+                            Timeless Beauty<br>
+                            in Every Detail
+                        </h1>
+                        <p>
+                            Discover our collection of handcrafted silver
+                            jewelry, designed to make you feel special
+                            every day.
+                        </p>
+                        <a href="#shop" class="btn btn-dark">
+                            Explore Collection
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="shop">
+            <div class="row">
+                <div class="col w-100">
+                    <div class="wrapper">
+                        <div class="shop-top">
+                            <div>
+                                <span>Home</span>
+                                <i class="fa-solid fa-angle-right"></i>
+                                <span>Shop</span>
+                            </div>
+                           <select>
+                                <option>Default sorting</option>
+                                <option>Price: Low to High</option>
+                                <option>Price: High to Low</option>
+                                <option>Newest</option>
+                            </select>
+                        </div>
+                        <div class="row products-layout">
+                            <div class="col w-20">
+                                <div class="wrapper filters">
+                                    <div class="filter-title">
+                                        <h3>Category</h3>
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </div>
+                                    <label>
+                                        <input type="checkbox">
+                                        Rings
+                                    </label>
+                                    <label>
+                                        <input type="checkbox">
+                                        Necklaces
+                                    </label>
+                                    <label>
+                                        <input type="checkbox">
+                                        Earrings
+                                    </label>
+                                    <label>
+                                        <input type="checkbox">
+                                        Bracelets
+                                    </label>
+                                    <label>
+                                        <input type="checkbox">
+                                        Sets
+                                    </label>
+                                    <hr>
+                                    <div class="filter-title">
+                                        <h3>Price</h3>
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </div>
+                                    <label>
+                                        <input type="checkbox">
+                                        Under $50
+                                    </label>
+                                    <label>
+                                        <input type="checkbox">
+                                        $50 – $100
+                                    </label>
+                                    <label>
+                                        <input type="checkbox">
+                                        $100 – $150
+                                    </label>
+                                    <label>
+                                        <input type="checkbox">
+                                        $150 – $200
+                                    </label>
+                                    <label>
+                                        <input type="checkbox">
+                                        Over $200
+                                    </label>
+                                    <hr>
+                                    <div class="filter-title">
+                                        <h3>Material</h3>
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </div>
+                                    <label>
+                                        <input type="checkbox">
+                                        925 Silver
+                                    </label>
+                                    <label>
+                                        <input type="checkbox">
+                                        Silver Plated
+                                    </label>
+                                    <label>
+                                        <input type="checkbox">
+                                        With Zircon
+                                    </label>
+                                    <label>
+                                        <input type="checkbox">
+                                        With Pearl
+                                    </label>
+                                    <hr>
+                                    <a href="#" class="clear-filter">
+                                        <i class="fa-solid fa-rotate-left"></i>
+                                        Clear All Filters
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col w-80">
+                                <div class="wrapper">
+                                    <div class="products">
+                                        <div class="product">
+                                            <div class="product-image">
+                                                <img src="images/jewelry_item_01.png" alt="Classic Silver Ring">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </div>
+                                            <h3>Classic Silver Ring</h3>
+                                            <strong>$78.00</strong>
+                                        </div>
+                                        <div class="product">
+                                            <div class="product-image">
+                                                <img src="images/jewelry_item_02.png" alt="Elegant Necklace">
+
+                                                <i class="fa-regular fa-heart"></i>
+                                            </div>
+                                            <h3>Elegant Necklace</h3>
+                                            <strong>$96.00</strong>
+                                        </div>
+                                        <div class="product">
+                                            <div class="product-image">
+                                                <img src="images/jewelry_item_04.png" alt="Infinity Bracelet">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </div>
+                                            <h3>Diamond Hoops</h3>
+                                            <strong>$72.00</strong>
+                                        </div>
+                                        <div class="product">
+                                            <div class="product-image">
+                                                <img src="images/jewelry_item_03.png" alt="Diamond Hoops">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </div>
+                                            <h3>Infinity Bracelet</h3>
+                                            <strong>$64.00</strong>
+                                        </div>
+                                        <div class="product">
+                                            <div class="product-image">
+                                                <img src="images/jewelry_item_05.png" alt="Leaf Ring">
+
+                                                <i class="fa-regular fa-heart"></i>
+                                            </div>
+                                            <h3>Leaf Ring</h3>
+                                            <strong>$59.00</strong>
+                                        </div>
+                                        <div class="product">
+                                            <div class="product-image">
+                                                <img src="images/jewelry_item_06.png" alt="Flower Necklace">
+
+                                                <i class="fa-regular fa-heart"></i>
+                                            </div>
+                                            <h3>Flower Necklace</h3>
+                                            <strong>$85.00</strong>
+                                        </div>
+                                        <div class="product">
+                                            <div class="product-image">
+                                                <img src="images/jewelry_item_08.png" alt="Pearl Earrings">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </div>
+                                            <h3>Pearl Earrings</h3>
+                                            <strong>$69.00</strong>
+                                        </div>
+                                        <div class="product">
+                                            <div class="product-image">
+                                                <img src="images/jewelry_item_09.png" alt="Solitaire Ring">
+
+                                                <i class="fa-regular fa-heart"></i>
+                                            </div>
+                                            <h3>Solitaire Ring</h3>
+                                            <strong>$120.00</strong>
+                                        </div>
+                                        <div class="product">
+                                            <div class="product-image">
+                                                <img src="images/jewelry_item_07.png" alt="Engraved Bracelet">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </div>
+                                            <h3>Engraved Bracelet</h3>
+                                            <strong>$110.00</strong>
+                                        </div>
+                                        <div class="product">
+                                            <div class="product-image">
+                                                <img src="images/jewelry_item_14.png" alt="Moon Necklace">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </div>
+                                            <h3>Moon Necklace</h3>
+                                            <strong>$88.00</strong>
+                                        </div>
+                                        <div class="product">
+                                            <div class="product-image">
+                                                <img src="images/jewelry_item_12.png" alt="Twisted Hoops">
+
+                                                <i class="fa-regular fa-heart"></i>
+                                            </div>
+                                            <h3>Twisted Hoops</h3>
+                                            <strong>$62.00</strong>
+                                        </div>
+                                        <div class="product">
+                                            <div class="product-image">
+                                                <img src="images/jewelry_item_15.png" alt="Black Stone Ring">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </div>
+                                            <h3>Black Stone Ring</h3>
+                                            <strong>$99.00</strong>
+                                        </div>
+                                    </div>
+                                    <div class="pagination">
+                                        <a href="#">
+                                            <i class="fa-solid fa-angle-left"></i>
+                                        </a>
+                                        <a href="#" class="current">1</a>
+                                        <a href="#">2</a>
+                                        <a href="#">3</a>
+                                        <a href="#">4</a>
+                                        <a href="#">
+                                            <i class="fa-solid fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bottom-strip">
+            <div class="row">
+                <div class="col w-100">
+                    <div class="wrapper flex justify-center gap-10">
+                        <span>SILVER JEWELRY</span>
+                        <span>HANDCRAFTED</span>
+                        <span>TIMELESS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="row footer-menu md-flex">
+        <div class="col w-100">
+            <div class="wrapper">
+                <ul class="flex gap-10 justify-between">
+                    <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-plus"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-circle-user"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row flex gap-10 justify-between align-center">
+            <div class="col">
+                <div class="wrapper">
+                    <a class="logo" href="#home"><span>LUNÉ</span><small>SILVER JEWELRY</small></a>
+                    <p>Timeless pieces for modern moments.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="wrapper">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="#shop">New arrivals</a></li>
+                        <li><a href="#shop">Best sellers</a></li>
+                        <li><a href="#collections">Collections</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="wrapper">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a href="#about">Our story</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="cart.html">Shopping bag</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="wrapper">
+                    <h3>Follow us</h3>
+                    <div class="social"><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i
+                                class="fa-brands fa-facebook-f"></i></a><a href="#"><i
+                                class="fa-brands fa-pinterest-p"></i></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright"><span>© 2026 LUNÉ Silver Jewelry</span><span>Designed with elegance.</span></div>
+    </footer>
+</body>
+
+</html>
