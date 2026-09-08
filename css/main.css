@@ -29,32 +29,28 @@ body {
 h1,
 .title-1 {
     font-size: 48px;
-    font-weight: 700;
 }
 
 h2,
 .title-2 {
     font-size: 40px;
-    font-weight: 700;
 }
 
 h3,
 .title-3 {
     font-size: 30px;
-    font-weight: 700;
 }
 
 h4,
 .title-4 {
     font-size: 20px;
-    font-weight: 700;
 }
 
 h1,
 h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
-    line-height: 1.05
+    line-height: 1.05;
 }
 
 
@@ -211,8 +207,6 @@ nav a:hover:after {
     background-image: linear-gradient(90deg, rgba(24, 24, 22, .42), rgba(24, 24, 22, .04)), url('https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=2000&q=90');
     background-size: cover;
     background-position: 50%;
-    max-height: 800px;
-    max-width: 100%;
 }
 
 .hero-content {
@@ -245,12 +239,6 @@ nav a:hover:after {
 
 .section-heading.split {
     display: flex;
-    align-items: end;
-    justify-content: space-between
-}
-
-.section-heading.split {
-    display: flex;
     justify-content: space-between;
     align-items: flex-end;          
     width: 100%;
@@ -273,8 +261,6 @@ nav a:hover:after {
     height: 420px;
     overflow: hidden;
     border-radius: 6px;
-    background: #b0afae03;
-    flex-shrink: 0;
 }
 
 .category-card picture {
@@ -490,7 +476,6 @@ nav a:hover:after {
 
 .about .col {
     flex: 1;
-    width: 50%;
 }
 
 .about .wrapper {
@@ -541,27 +526,18 @@ nav a:hover:after {
     margin-bottom: 16px;
 }
 
-
 #video .row,
 #video .col,
-#video .wrapper,
-#video .video {
+#video .wrapper {
     width: 100%;
-    max-width: 100%;
-    min-width: 100%;
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
 }
 
 #video video {
     width: 100%;
-    height: auto;
     display: block;
-    object-fit: cover;
 }
-
-
 
 .features {
     border-top: 1px solid var(--line);
@@ -839,7 +815,7 @@ footer .copyright {
 }
 
 .hero-content {
-    padding: 90px 0;
+    padding: 100px 0;
 }
 
 .subtitle {
@@ -863,7 +839,6 @@ footer .copyright {
     margin-left: 15px;
 }
 
-
 .shop-top {
     display: flex;
     justify-content: space-between;
@@ -882,7 +857,6 @@ footer .copyright {
     background: rgba(211, 208, 208, 0.211);
     border-radius: 7px;
 }
-
 
 .filters {
     padding-right: 25px;
@@ -923,7 +897,6 @@ footer .copyright {
     border-top: 1px solid #ddd;
     margin: 25px 0;
 }
-
 
 .products {
     display: flex;
@@ -1043,10 +1016,8 @@ footer .copyright {
     height: 100%;
     display: flex;
     padding: 20px;
-    display: flex;
     align-items: center;
     justify-content: center;
-    white-space: wrap;
     text-align: center;
 }
 
@@ -1230,15 +1201,13 @@ footer .copyright {
   background: #f9f9f9;
 }
 
-#auth-story{
-    background-image: url(../images/combo7.jpg);
+#auth-story {
     width: 100%;
     height: 700px;
-}
-
-#auth-story {
-    padding: 30px 0 60px 0;
+    padding: 30px 0 60px;
     background-color: #fafafa;
+    background:
+        url("../images/combo7.jpg") center/cover no-repeat;
 }
 
 #auth-story .story-card {
@@ -1248,7 +1217,6 @@ footer .copyright {
     display: flex;
     align-items: flex-end;
 }
-
 
 #auth-story .eyebrow {
     font-size: 18px;
