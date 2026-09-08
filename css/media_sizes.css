@@ -412,4 +412,29 @@
      .footer-menu {
          bottom: 0;
      }
+
+      #best-sellers {
+        padding: 55px 15px;
+    }
+
+    #best-sellers .row {
+        gap: 20px;
+    }
+
+    #best-sellers .col {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+
+    #best-sellers .product-img {
+        height: 390px;
+    }
+
+    #best-sellers .section-title h2 {
+        font-size: 29px;
+    }
+
+    #best-sellers .section-title span {
+        font-size: 14px;
+    }
  }
